@@ -1,12 +1,12 @@
 #include <stdio.h>
-void main(){
-    float pi = 3.14;
-    
-    float r = 0;
-    printf("Enter Radius Here: \n");
-    scanf("%f", &r);
+void main() {
+  float pi = 3.14;
 
-    float area = 2*pi*r;
+  float r = 0;
+  printf("Enter Radius Here: \n");
+  scanf("%f", &r);
 
-    printf("%.1f", area) ;
+  float area = 2 * pi * r;
+
+  printf("%.1f", area);
 }
