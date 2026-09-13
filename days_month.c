@@ -31,6 +31,5 @@ void main(){
         default:
         printf("Invalid Input");
         break;
-
     }
 }
