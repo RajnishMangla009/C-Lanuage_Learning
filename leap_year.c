@@ -5,6 +5,8 @@ void main() {
   printf("Enter the Year: ");
   scanf("%d", &year);
 
+  // Example of Nested-If
+
   if (year % 100 == 0) {
     if (year % 400 == 0) {
       printf("%d is a leap year", year);
