@@ -1,0 +1,4 @@
+There are mainly three types of errors, which are:
+1. Syntax Error - Bad or Incorrect Syntax
+2. Runtime Error - Code is properly compiling but not running as it is to be (use to memory issues, etc)
+3. Logic Error - Bad Logic

@@ -1,0 +1,5 @@
+Debugging is a proceess of finding and correcting errors in the code.
+
+The errors can be of three types @ refer Error.txt
+
+We mainly focuses on logical errors while Debugging

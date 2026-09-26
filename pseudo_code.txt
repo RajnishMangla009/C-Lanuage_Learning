@@ -1,0 +1,42 @@
+-> Pseudo code is an informal way of writing programming logic
+
+-> Used to plan before coding
+
+-> No actual code -> No strict syntax
+
+
+// Basic Structure
+1. Start
+2. Input
+3. Process / Logic
+4. Output
+5. End
+
+// Common Keywords Used
+
+* Start
+* End
+* Input
+* Print
+* If/Else
+* While
+* For
+
+// Example
+
+/Syntax
+
+IF condition THEN
+    Statements
+ELSE 
+    Statements
+END IF ///Optional
+
+
+/Code
+
+IF n%2==0 THEN
+    PRINT "EVEN"
+ELSE
+    PRINT "ODD"
+END IF /// Optional
