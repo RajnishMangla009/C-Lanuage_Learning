@@ -1,0 +1,7 @@
+Flowchart symbols in C
+
+•	Start & Stop  -  Oval 
+•	Input / Output - Parallelogram
+•	Process - Rectangle
+•	Condition - Diamond
+
