@@ -1,26 +1,9 @@
 #include <stdio.h>
 
-void main(){
-    int i, j, n=10;
-    
-    for(i=1; i<= n ; i++){
+int main(){
+    int a = 7, b = 6, c = 0;
 
-        for (j = 0; j < (n+2) ; j++){
-
-
-            if(i == j || i+j==10){
-
-                printf(" *");
-
-            }else{
-
-                printf("  ");
-                
-            }
-
-        }
-
-        printf("\n");
-
-    }
+    c = a>b ? a:b;
+    printf("%d", c);
+    return 0;
 }
