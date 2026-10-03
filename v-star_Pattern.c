@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 void main(){
-    int i, j, n=10;
+    int i, j, n = 5;
     
-    for(i=1; i<= n ; i++){
+    for(i=1; i<=5; i++){
 
-        for (j = 0; j < (n+2) ; j++){
+        for (j = 0; j < 2*n; j++){
 
 
             if(i == j || i+j==10){
 
-                printf(" *");
+                printf(" * ");
 
             }else{
 

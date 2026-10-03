@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-void main(){
-    int a = 1, b, c;
 
-    while (a <= 7){
-        b = 1;
-        while(b <=3){
-            printf("%d", b);
-            b++;
-        }
-        a++;
-        printf("\n");
-    }
+// function declaration
+void sum(int a, int b);
+
+void main(){
+    sum(5,4);
+}
+
+//Function implementation
+void sum(int a, int b){
+    printf("%d, a+b");
+
 }
