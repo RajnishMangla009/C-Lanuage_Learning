@@ -1,9 +1,25 @@
 #include <stdio.h>
 
-int main(){
-    int a = 7, b = 6, c = 0;
+void swap(int a, int b);
 
-    c = a>b ? a:b;
-    printf("%d", c);
+int main(){
+    int x, y;
+    printf("Enter the Value of A & B:\n");
+    scanf("%d %d", &x, &y);
+
+    swap(x, y);
+
     return 0;
+}
+
+void swap(int a, int b){
+    int c = 0;
+
+    printf("Value before Swap is, A = %d, B = %d\n", a, b);
+
+    c = a;
+    a = b;
+    b = c;
+
+    printf("Value after Swap is, A = %d, B = %d\n", a, b);
 }
