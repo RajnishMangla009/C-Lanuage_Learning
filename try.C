@@ -1,25 +1,27 @@
 #include <stdio.h>
 
-void swap(int a, int b);
-
 int main(){
-    int x, y;
-    printf("Enter the Value of A & B:\n");
-    scanf("%d %d", &x, &y);
+    int dec, i = 0;
+    int bin[32];
 
-    swap(x, y);
+    printf("Enter a Decimal Number");
+    scanf("%d", &dec);
+
+    if(dec == 0){
+        printf("Binary = 0\n");
+    }
+
+    while(dec > 0){
+        bin[i] = dec%2;
+        dec = dec/2;
+        i++;
+    }
+
+    printf("Binary =  ");
+
+    for(int j = i-1; j>= 0; j--){
+        printf("%d", bin[j]);
+    }
 
     return 0;
-}
-
-void swap(int a, int b){
-    int c = 0;
-
-    printf("Value before Swap is, A = %d, B = %d\n", a, b);
-
-    c = a;
-    a = b;
-    b = c;
-
-    printf("Value after Swap is, A = %d, B = %d\n", a, b);
 }
